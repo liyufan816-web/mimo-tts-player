@@ -1,0 +1,30 @@
+# 虚拟环境（不要上传！）
+venv/
+env/
+ENV/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 测试和临时文件
+output*.mp3
+*.log
+.DS_Store
+
+# IDE 配置（根据你的编辑器选择）
+.vscode/
+.idea/
+*.swp
+
+# 敏感信息（重要！）
+config.py
+*.key
+*.pem
+
+# 其他
+.pytest_cache/
+.coverage
+htmlcov/
