@@ -13,7 +13,8 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 # 配置
-API_KEY = "test"  # 替换成你的真实 API Key
+# API_KEY = "test"  # 替换成你的真实 API Key
+API_KEY = os.getenv("MIMO_API_KEY", "你的测试Key")
 API_URL = "https://api.xiaomimimo.com/v1/chat/completions"
 
 def generate_speech(text):
